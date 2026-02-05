@@ -32,6 +32,9 @@ const Login = () => {
   return (
     <div>
       <h1>Login</h1>
+      <p style={{ color: "#555", marginBottom: "1rem" }}>
+      ⏳ Waking up server… first request may take a few seconds.
+    </p>
       {error && <p style={{ color: "red" }}>{error}</p>}
 
       <form onSubmit={handleSubmit}>
